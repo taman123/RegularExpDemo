@@ -4,13 +4,6 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-/**
- * Abstract class for a multivalidator.
- *
- * @author Andrea Baccega <me@andreabaccega.com>
- * @see AndValidator
- * @see OrValidator
- */
 public abstract class MultiValidator extends Validator {
     protected final List<Validator> validators;
 

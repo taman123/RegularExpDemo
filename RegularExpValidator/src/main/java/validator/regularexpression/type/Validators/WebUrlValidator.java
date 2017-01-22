@@ -5,12 +5,6 @@ import android.util.Patterns;
 
 import java.util.regex.Pattern;
 
-/**
- * Validates a web url in the format:
- * scheme + authority + path
- *
- * @author Andrea Baccega <me@andreabaccega.com>
- */
 public class WebUrlValidator extends PatternValidator {
     public WebUrlValidator(String _customErrorMessage) {
         //TODO: Fix the pattern for api level < 8

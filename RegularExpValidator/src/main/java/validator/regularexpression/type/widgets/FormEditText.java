@@ -15,11 +15,6 @@ import java.lang.reflect.Method;
 
 import validator.regularexpression.type.Validators.Validator;
 
-/**
- * EditText Extension to be used in order to create forms in android.
- *
- * @author Andrea Baccega <me@andreabaccega.com>
- */
 public class FormEditText extends EditText {
     public FormEditText(Context context) {
         super(context);

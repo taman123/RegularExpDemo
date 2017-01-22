@@ -13,11 +13,6 @@ import android.widget.EditText;
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 
-/**
- * AutoCompleteTextView Extension to be used in order to create forms in android.
- *
- * @author Said Tahsin Dane <tasomaniac@gmail.com>
- */
 public class FormAutoCompleteTextView extends AutoCompleteTextView {
     public FormAutoCompleteTextView(Context context) {
         super(context);

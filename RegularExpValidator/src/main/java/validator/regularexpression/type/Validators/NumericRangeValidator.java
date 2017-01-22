@@ -2,12 +2,6 @@ package validator.regularexpression.type.Validators;
 
 import android.widget.EditText;
 
-/**
- * A validator that returns true only if the input field contains only numbers
- * and the number is within the given range.
- *
- * @author Said Tahsin Dane <tasomaniac@gmail.com>
- */
 public class NumericRangeValidator extends Validator {
 
     private int min, max;

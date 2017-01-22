@@ -80,8 +80,8 @@ install {
                 }
             }
             scm {
-                connection 'https://github.com/northpolecoder/elf.git'
-                url 'https://github.com/northpolecoder/elf'
+                connection 'https://github.com/taman123/RegularExpDemo.git'
+                url 'https://github.com/taman123/RegularExpDemo'
 
             }
             developers {

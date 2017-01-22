@@ -3,11 +3,6 @@ package validator.regularexpression.type.Validators;
 
 import android.widget.EditText;
 
-/**
- * This validator takes care of validating the edittext. The input will be valid only if the number is a valid credit card.
- *
- * @author Andrea Baccega <me@andreabaccega.com>
- */
 public class CreditCardValidator extends Validator {
     public CreditCardValidator(String _customErrorMessage) {
         super(_customErrorMessage);

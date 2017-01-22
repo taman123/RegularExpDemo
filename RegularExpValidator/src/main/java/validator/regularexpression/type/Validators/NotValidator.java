@@ -2,11 +2,6 @@ package validator.regularexpression.type.Validators;
 
 import android.widget.EditText;
 
-/**
- * It's a validator that applies the "NOT" logical operator to the validator passed in the constructor.
- *
- * @author Andrea Baccega <me@andreabaccega.com>
- */
 public class NotValidator extends Validator {
     private Validator v;
 

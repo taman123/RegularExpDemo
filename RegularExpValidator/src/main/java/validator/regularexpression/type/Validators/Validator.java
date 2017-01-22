@@ -2,11 +2,6 @@ package validator.regularexpression.type.Validators;
 
 import android.widget.EditText;
 
-/**
- * Validator abstract class. To be used with FormEditText
- *
- * @author Andrea Baccega <me@andreabaccega.com>
- */
 public abstract class Validator {
     protected String errorMessage;
 
